@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() 
+    
+    {
+        int i,j,n;
+        int row,col;
+        cin>>n;
+        for(row=0;row<=n;row++){
+            for(col=0;col=n;col++)
+            {
+                if(row==col)
+                {
+                    cout<<col;
+                }
+                
+            }
+        }
+        
+    return 0;
+}
